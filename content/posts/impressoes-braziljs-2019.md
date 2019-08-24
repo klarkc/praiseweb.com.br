@@ -1,9 +1,9 @@
 ---
-title: Say hello to Gridsome 🎉
-date: 2019-02-07
-tags: ['Markdown', 'Releases']
+title: Como foi a BrazilJS 2019
+date: 2019-08-19
+tags: ['BrazilJS', 'Evento', 'Comunidade' ]
 canonical_url: false
-description: "A new static site generator baby is born. It's highly inspired by Gatsby.js (React based) but built on top of Vue.js. We have been working on it for a year and will have a beta ready soon. You can expect this baby to grow up fast!"
+description: "Minhas impressões sobre o evento e o que eu achei das palestras desse ano."
 
 ---
 
