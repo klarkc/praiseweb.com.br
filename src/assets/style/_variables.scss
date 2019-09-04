@@ -4,14 +4,16 @@ html {
 }
 
 // Light default theme
+// Pallet: https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=004D40&secondary.color=FFAB00&secondary.text.color=000000&primary.text.color=ffffff
 body {
- 	--bg-color: #F3F7F9;
+ 	--bg-color: #ffdd4b;
  	--bg-content-color: #fff;
- 	--bg-code: #fffbf3;
- 	--body-color: #444;
- 	--title-color: #111;
- 	--link-color: #6b17e6;
- 	--border-color:  rgba(0,0,0,.1);;
+	--bg-code: #00251a;
+	--text-code: rgba(255,255,255,.9);
+ 	--body-color: rgba(0,0,0,.9);
+ 	--title-color: rgba(0, 0, 0, 0.8);
+ 	--link-color: #004d40;
+ 	--border-color:  rgba(0,0,0,.1);
   --space: 3.5rem;
   --content-width: 860px;
   --header-height: 80px;
@@ -32,11 +34,12 @@ body {
 
 // Override variables for Dark theme
 body[data-theme="dark"] {
- 	--bg-color: #0D2538;
- 	--bg-content-color: #0f2d44;
- 	--bg-code: rgba(0,0,0,.3);
- 	--border-color:  rgba(255,255,255,.1);;
- 	--body-color: #ced8de;
- 	--title-color: #fff;
- 	--link-color: #af9cef;
+ 	--bg-color: #00251a;
+ 	--bg-content-color: #004d40;
+  --bg-code: rgba(0,0,0,.3);
+  --text-code: rgba(255,255,255,.9);
+ 	--border-color:  rgba(255,255,255,.1);
+ 	--body-color: rgba(255,255,255,.9);
+ 	--title-color: rgba(255, 255, 255, 0.8);
+ 	--link-color: #ffab00;
 }
