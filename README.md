@@ -1,3 +1,3 @@
 # Praiseweb
 
-> Blog pessoal sobre desenvolvimento de software web.
+> Só mais um blog pessoal sobre desenvolvimento de software.

@@ -8,7 +8,7 @@
 		</h1>
 
 		<p class="author__intro">
-			Blog pessoal sobre desenvolvimento de software web.
+			Só mais um blog pessoal sobre desenvolvimento de software.
 		</p>
 
 		<p class="author__links">
