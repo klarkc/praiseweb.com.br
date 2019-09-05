@@ -26,7 +26,7 @@ Software custa caro. Manter uma equipe, ou mesmo uma pessoa, trabalhando nele é
 
 Após uma longa jornada de pesquisa, uma série de entrevistas com usuários para enfim levantar uma bateria de requisitos, você idealiza a solução perfeita, e está confiante de que, uma vez lançado, esse produto fará um tremendo sucesso no mercado.
 
-No meio do processo de desenvolvimento, você percebe que o cenário mudou, e - embora a sua solução esteja em conformidade com o que foi planejado - ela atende parcialmente a necessidade do usuário nesse novo cenário. Ao procurar uma causa raiz para esse problema, você percebe que poderia ter gastando menos tempo planejando e mais tempo validando e coletando dados para ter tomado decisões mais assertivas.
+No meio do processo de desenvolvimento, você percebe que o cenário mudou, e - embora a sua solução esteja em conformidade com o que foi planejado - ela atende parcialmente a necessidade do usuário nesse novo cenário. Ao procurar uma causa raiz para esse problema, você percebe que poderia ter gastando menos tempo idealizando com base em suposições, e mais tempo validando e coletando dados para ter tomado decisões mais assertivas.
 
 Agora com um *budget* limitado você não consegue pivotar a ideia inicial, e acaba por fracassar. Nadou, nadou e morreu na praia.
 
