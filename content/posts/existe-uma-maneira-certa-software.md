@@ -40,7 +40,7 @@ Já cansei de ver projetos de MVP falharem por não terem dado a mínima atenç�
 
 A "Cultura Ágil" em voga, e mais ainda, a fama do "MVP", criou um estigma que não devemos nos preocupar com qualidade, mas entregar a todo e qualquer custo, para gerar novos ciclos de desenvolvimento o mais rápido possível pelo menor custo. Isso é um EQUÍVOCO TREMENDO ([entenda porque](https://www.youtube.com/watch?v=xjjX3R2WuoM)), você pode chegar em um market fit de outras formas.
 
-A única maneira viável de se criar software é partir de um marco 0, evoluir, incrementalmente até a solução almejada, mantendo um mínimo de qualidade enquanto gera valor num ciclo de retroalimentação. Mais valor implica em mais ganhos que implicam em mais evoluções que geram mais valor.
+A única maneira viável de se criar software é partir de um marco 0, evoluir, de forma incremental até a solução almejada, mantendo um mínimo de qualidade enquanto gera valor num ciclo de retroalimentação. Mais valor implica em mais ganhos que implicam em mais evoluções que geram mais valor.
 
 #### Conclusão
 
