@@ -59,6 +59,6 @@ Quando for criar um novo software, primeiro tente com todas as suas forças **n�
 7. Prototipar e testar com potenciais usuários
 8. Consultoria, suporte e pré-venda
 
-E só então, quando não houverem mais saídas e um mínimo de receita recorrente, comece de maneira sustentável. Tomando as partes que mais geram valor, para chegar incrementalmente no objetivo final, sempre tomando como base o feedback do usuário.
+E só então, quando não houverem mais saídas e um mínimo de receita recorrente, comece de maneira sustentável. Tomando as partes que mais geram valor, para chegar pouco a pouco no objetivo final, sempre tomando como base o feedback do usuário.
 
 E qual a sua opinião? Me fala ai, quero saber! [Me escreve no Twitter](http://twitter.com/klarkc)
