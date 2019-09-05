@@ -2,7 +2,7 @@
 title: Existe uma maneira certa de se fazer software?
 date: 2019-09-04
 published: true
-tags: ['Produto', 'MVP']
+tags: ['Produto', 'MVP'. 'Agile']
 canonical_url: false
 series: false
 cover_image: ./images/dont-do-it.jpg
