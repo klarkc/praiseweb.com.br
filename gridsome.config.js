@@ -31,6 +31,27 @@ module.exports = {
       options: {
         id: 'UA-16469176-1'
       }
+    },
+    {
+      use: 'gridsome-plugin-rss',
+      options: {
+        contentTypeName: 'Post',
+        feedOptions: {
+          title: 'Blog Praiseweb',
+          feed_url: 'https://praiseweb.com.br/rss.xml',
+          site_url: 'https://praiseweb.com.br'
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          description: node.description,
+          url: 'https://praiseweb.com.br/' + node.slug,
+          author: node.author
+        }),
+        output: {
+          dir: './static',
+          name: 'rss.xml'
+        }
+      }
     }
   ],
 
