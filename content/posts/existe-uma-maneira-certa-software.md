@@ -20,7 +20,7 @@ Vamos então entender quais são os problemas mais comuns ao se criar um softwar
 
 #### Custo
 
-Software custa caro. Manter uma equipe, ou mesmo uma pessoa, trabalhando nele é um tremendo risco financeiro, se você não sabe exatamente o que está fazendo e, principalmente, o porquê de estar fazendo.
+Software custa caro. Manter uma equipe, ou mesmo uma pessoa, trabalhando nele é um tremendo [risco](https://uxdesign.cc/riskiest-assumption-canvas-73ec0e2e0abc) financeiro, se você não sabe exatamente o que está fazendo e, principalmente, o porquê de estar fazendo.
 
 ##### Imagine-se na seguinte situação
 
