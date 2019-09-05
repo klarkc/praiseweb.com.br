@@ -38,7 +38,7 @@ Esse é um dos problemas mais comums nesse ramo, e que fazem startups fracassare
 
 Já cansei de ver projetos de MVP falharem por não terem dado a mínima atenção nesse quesito tão essencial no processo de desenvolvimento de um software. Uma vez validada a ideia no MVP, morrem, porque os custos para evoluir a solução ficam impeditivos.
 
-A "Cultura Ágil" em voga, e mais ainda, a fama do "MVP", criou um falso estigima que não devemos nos preocupar com qualidade, mas entregar a todo e qualquer custo, para gerar novos ciclos de desenvolvimento o mais rápido possível pelo menor custo. Isso é um EQUÍVOCO TREMENDO ([entenda porque](https://www.youtube.com/watch?v=xjjX3R2WuoM)), você pode chegar em um market fit de outras formas.
+A "Cultura Ágil" em voga, e mais ainda, a fama do "MVP", criou um estigima que não devemos nos preocupar com qualidade, mas entregar a todo e qualquer custo, para gerar novos ciclos de desenvolvimento o mais rápido possível pelo menor custo. Isso é um EQUÍVOCO TREMENDO ([entenda porque](https://www.youtube.com/watch?v=xjjX3R2WuoM)), você pode chegar em um market fit de outras formas.
 
 A única maneira viável de se criar software é partir de um marco 0, evoluir, incrementalmente até a solução almejada, mantendo um mínimo de qualidade enquanto gera valor num ciclo de retroalimentação. Mais valor implica em mais ganhos que implicam em mais evoluções que geram mais valor.
 
