@@ -26,7 +26,7 @@ Software custa caro. Manter uma equipe, ou mesmo uma pessoa, trabalhando nele é
 
 Após uma longa jornada de pesquisa, uma série de entrevistas com usuários para enfim levantar uma bateria de requisitos, você idealiza a solução perfeita, e está confiante de que, uma vez lançado, esse produto fará um tremendo sucesso no mercado.
 
-No meio do processo de desenvolvimento, você percebe que o cenário mudou, e - embora a sua solução esteja em conformidade com o que foi planejado - ela atende parcialmente a necessidade do usuário nesse novo cenário. Ao procurar uma causa raiz para esse problema, você percebe que poderia ter gastando menos tempo planejando e mais tempo validando e coletando dados para ter tomado decisões mais acertivas.
+No meio do processo de desenvolvimento, você percebe que o cenário mudou, e - embora a sua solução esteja em conformidade com o que foi planejado - ela atende parcialmente a necessidade do usuário nesse novo cenário. Ao procurar uma causa raiz para esse problema, você percebe que poderia ter gastando menos tempo planejando e mais tempo validando e coletando dados para ter tomado decisões mais assertivas.
 
 Agora com um *budget* limitado você não consegue pivotar a ideia inicial, e acaba por fracassar. Nadou, nadou e morreu na praia.
 
@@ -59,6 +59,6 @@ Quando for criar um novo software, primeiro tente com todas as suas forças **n�
 7. Prototipar e testar com potenciais usuários
 8. Consultoria, suporte e pré-venda
 
-E só então, quando não houverem mais saídas e um mínimo de receita, comece de maneira sustentável. Tomando as partes que mais geram valor, para chegar incrementalmente no objetivo final, sempre tomando como base o feedback do usuário.
+E só então, quando não houverem mais saídas e um mínimo de receita recorrente, comece de maneira sustentável. Tomando as partes que mais geram valor, para chegar incrementalmente no objetivo final, sempre tomando como base o feedback do usuário.
 
 E qual a sua opinião? Me fala ai, quero saber! [Me escreve no Twitter](http://twitter.com/klarkc)
