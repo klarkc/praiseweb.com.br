@@ -1,15 +1,26 @@
 <template>
    <div class="post-meta">
-      Posted {{ post.date }}.
+      Postado em {{ toLocale(post.date) }}.
       <template v-if="post.timeToRead">
-        <strong>{{ post.timeToRead }} min read.</strong>
+        <strong>{{ post.timeToRead }} min leitura.</strong>
       </template>
     </div>
 </template>
 
 <script>
 export default {
-  props: ['post']
+  props: ['post'],
+  methods: {
+    toLocale(date) {
+      const d = new Date(date);
+      const options = {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }
+      return new Intl.DateTimeFormat('pt-BR', options).format(d);
+    }
+  }
 }
 </script>
 
