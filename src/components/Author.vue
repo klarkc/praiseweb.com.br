@@ -12,8 +12,9 @@
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/klarkc">Twitter</a>
-			<a href="//github.com/klarkc">GitHub</a>
+      <a href="https://profile.codersrank.io/user/klarkc" target="_blank">Codersrank</a>
+			<a href="https://twitter.com/klarkc" target="_blank">Twitter</a>
+			<a href="https://github.com/klarkc" target="_blank">GitHub</a>
 		</p>
 
 	</div>
