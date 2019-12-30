@@ -36,5 +36,5 @@ O mundo de TI é muito amplo para se encaixar a divisão back-end / front-end co
 
 Cada vez mais, vemos que essa divisão simplista entre quem cuida do servidor, e quem cuida do cliente, cai em irrelevância, pois os problemas estão ficando mais complexos, levando a mais especializações, que muitas vezes misturam noções de tudo, não apenas dessas "caixas" que criamos para o backend e frontend.
 
-Então não, acredito que o "front" **genérico** morreu, junto com o "back" **genérico**. O que vamos seguir vendo é uma simbiose das duas funções, em novas especializações focadas em funcionalidade, pois é uma consequência natural da evolução do conhecimento, sem regras escritas na pedra.
+Então não, acredito o que vamos seguir vendo é uma simbiose das duas funções, em novas especializações focadas em funcionalidade, pois é uma consequência natural da evolução do conhecimento, sem regras escritas na pedra.
 
