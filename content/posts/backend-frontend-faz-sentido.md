@@ -20,9 +20,13 @@ Não sou o primeiro a trazer esse assunto à tona, [nesse post](https://www.thou
 
 Não concordo apenas com a generalização, cada caso precisa ser analisado de forma contextual, porém muitas vezes toma-se por verdade absoluta que todos os sistemas devem ser divididos entre back / front, isso começa nos desenvolvedores e cresce pra "times de back" e "times de front", isso é sim, pode ser considerado algo bastante prejudicial, pois limita a capacidade de inovação dentro dos times por falta de comunicação e interação.
 
+![Blind Girls](./images/blind-leading-blind-1239882.jpg)
+
 Numa necessidade de se auto determinar, muitos se identificam como full stack e só, para não precisar mais pensar no assunto nem limitar seu ramo de atuação e aprendizado escolhendo apenas um caminho.
 
-![Blind Girls](./images/blind-leading-blind-1239882.jpg)
+> 48.3% dos desenvolvedores se identificaram como full stack em 2019
+
+Fonte: [State of JS 2019](https://2019.stateofjs.com/demographics/#jobTitle)
 
 Olhando para o desenvolvimento de produtos, sistemas ricos e complexos que resolvem problemas desafiadores podem ser criados quando nos livramos do estigma de que back cuida do banco e da performance e que front cuida da pele. Times multidisciplinares, com especialistas de todas as áreas tendem a construir soluções mais eficientes e com maior qualidade final, desde que estejam abertos a colaboração e ao aprendizado.
 
