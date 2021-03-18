@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import { Feed } from 'feed';
-import getPosts from './getPosts.js';
-import { title, description } from './meta.js';
+import getPosts from './getPosts';
+import { title, description } from './meta';
 
 const url = 'https://praiseweb.com.br';
 
