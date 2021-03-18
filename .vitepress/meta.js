@@ -1,2 +1,4 @@
-export const title = 'Praiseweb';
-export const description = 'Mais um blog sobre desenvolvimento de software.';
+module.exports = {
+    title: 'Praiseweb',
+    description: 'Mais um blog sobre desenvolvimento de software.'
+}
