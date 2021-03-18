@@ -32,7 +32,7 @@ function formatDate(date) {
   date.setUTCHours(12);
   return {
     time: +date,
-    string: date.toLocaleDateString('en-US', {
+    string: date.toLocaleDateString('pt-BR', {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
