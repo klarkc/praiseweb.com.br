@@ -5,7 +5,7 @@ published: true
 tags: ['Produto', 'MVP', 'Agile']
 canonical_url: false
 series: false
-cover_image: ./images/dont-do-it.jpg
+cover_image: /images/dont-do-it.jpg
 description: "Spoiler: Sim, e é não fazendo software!"
 
 ---
