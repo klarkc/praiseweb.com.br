@@ -1,19 +1,20 @@
-const fs = require('fs')
-const path = require('path')
-const { Feed } = require('feed')
-const { getPosts } = require('./getPosts')
-const url = `https://praiseweb.com.br`
+import fs from 'fs'
+import path from 'path'
+import { Feed } from 'feed'
+import getPosts from './getPosts.js'
+import { title, description } from './meta.js'
+
+const url = `https://praiseweb.com.br`;
 
 const feed = new Feed({
-    title: 'Praiseweb',
-    description: 'Mais um blog sobre desenvolvimento de software.',
+    title,
+    description,
     id: url,
     link: url,
     language: 'pt',
     image: `${url}/logo.jpg`,
     favicon: `${url}/favicon.ico`,
-    copyright:
-        'Copyright (c) 2021-present, Walker Leite'
+    copyright: 'Copyright (c) 2021-present, Walker Leite'
 })
 
 getPosts(true).forEach((post) => {
