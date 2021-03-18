@@ -42,7 +42,8 @@
                 "error",
                 {
                     "devDependencies": [
-                        "./vite.config.js"
+                        "./vite.config.js",
+                        "./tailwind.config.js"
                     ]
                 }
             ]
