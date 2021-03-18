@@ -4,7 +4,15 @@
   "description": "Mais um blog sobre desenvolvimento de software",
   "author": "Walker <walker@praiseweb.com.br>",
   "private": true,
+  "scripts": {
+    "dev": "vitepress",
+    "build": "vitepress build && node ./.vitepress/genFeed",
+    "serve": "vitepress serve"
+  },
   "devDependencies": {
+    "feed": "^4.2.2",
+    "gray-matter": "^4.0.2",
+    "vite-plugin-windicss": "^0.9.2",
     "vitepress": "^0.12.2"
   }
 }
