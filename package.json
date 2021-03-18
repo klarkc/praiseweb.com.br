@@ -1,18 +1,51 @@
 {
-  "name": "blog",
-  "version": "1.0.0",
-  "description": "Mais um blog sobre desenvolvimento de software",
-  "author": "Walker <walker@praiseweb.com.br>",
-  "private": true,
-  "scripts": {
-    "dev": "vitepress",
-    "build": "vitepress build && node ./.vitepress/genFeed",
-    "serve": "vitepress serve"
-  },
-  "devDependencies": {
-    "feed": "^4.2.2",
-    "gray-matter": "^4.0.2",
-    "vite-plugin-windicss": "^0.9.2",
-    "vitepress": "^0.12.2"
-  }
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "Mais um blog sobre desenvolvimento de software",
+    "author": "Walker <walker@praiseweb.com.br>",
+    "private": true,
+    "scripts": {
+        "dev": "vitepress",
+        "build": "vitepress build && node ./.vitepress/genFeed",
+        "serve": "vitepress serve",
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "eslint": "^7.22.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-vue": "^7.7.0",
+        "feed": "^4.2.2",
+        "gray-matter": "^4.0.2",
+        "vite": "^2.1.2",
+        "vite-plugin-windicss": "^0.9.2",
+        "vitepress": "^0.12.2"
+    },
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "es2021": true
+        },
+        "extends": [
+            "plugin:vue/vue3-recommended",
+            "airbnb-base"
+        ],
+        "parserOptions": {
+            "ecmaVersion": 12,
+            "sourceType": "module"
+        },
+        "plugins": [
+            "vue"
+        ],
+        "rules": {
+            "import/no-extraneous-dependencies": [
+                "error",
+                {
+                    "devDependencies": [
+                        "./vite.config.js"
+                    ]
+                }
+            ]
+        }
+    }
 }
