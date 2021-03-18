@@ -20,7 +20,7 @@ Não sou o primeiro a trazer esse assunto à tona, [nesse post](https://www.thou
 
 Não concordo apenas com a generalização, cada caso precisa ser analisado de forma contextual, porém muitas vezes toma-se por verdade absoluta que todos os sistemas devem ser divididos entre back / front, isso começa nos desenvolvedores e cresce pra "times de back" e "times de front", isso é sim, pode ser considerado algo bastante prejudicial, pois limita a capacidade de inovação dentro dos times por falta de comunicação e interação.
 
-![Blind Girls](./images/blind-leading-blind-1239882.jpg)
+![Blind Girls](/images/blind-leading-blind-1239882.jpg)
 
 Numa necessidade de se auto determinar, muitos se identificam como full stack e só, para não precisar mais pensar no assunto nem limitar seu ramo de atuação e aprendizado escolhendo apenas um caminho.
 

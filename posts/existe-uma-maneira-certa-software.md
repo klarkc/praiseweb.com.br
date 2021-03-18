@@ -44,7 +44,7 @@ A única maneira viável de se criar software é partir de um marco 0, evoluir, 
 
 #### Conclusão
 
-![Cartela de Bingo](images/bingo.jpg)
+![Cartela de Bingo](/images/bingo.jpg)
 
 Uma vez que assumimos que todo software deve ser EVOLUÍDO e NÃO FINALIZADO, descobrimos que desenvolver software para validar idéias é a **pior alternativa** de várias outras que você pode ter.
 
