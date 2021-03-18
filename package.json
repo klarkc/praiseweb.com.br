@@ -45,7 +45,7 @@
                     "devDependencies": [
                         "./vite.config.js",
                         "./tailwind.config.js",
-                        "./.vitepress"
+                        "./.vitepress/**/*"
                     ]
                 }
             ]
