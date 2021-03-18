@@ -2,9 +2,8 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "Mais um blog sobre desenvolvimento de software",
-  "repository": "git@github.com:klarkc/praiseweb.com.br.git",
   "author": "Walker <walker@praiseweb.com.br>",
-  "license": "MIT",
+  "private": true,
   "devDependencies": {
     "vitepress": "^0.12.2"
   }
