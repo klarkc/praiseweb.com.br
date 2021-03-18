@@ -1,4 +1,5 @@
 import getPosts from './getPosts';
+import { title, description } from './meta'
 
 export default {
   title,
