@@ -1,5 +1,4 @@
-import typography from 'windicss/plugin/typography';
-
-export default {
-  plugins: [typography],
+/* eslint-disable global-require */
+module.exports = {
+  plugins: [require('windicss/plugin/typography')],
 };

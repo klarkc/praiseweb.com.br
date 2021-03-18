@@ -1,8 +1,9 @@
-import fs from 'fs';
-import path from 'path';
-import { Feed } from 'feed';
-import getPosts from './getPosts';
-import { title, description } from './meta';
+const fs = require('fs');
+const path = require('path');
+const { Feed } = require('feed');
+
+const getPosts = require('./getPosts');
+const { title, description } = require('./meta');
 
 const url = 'https://praiseweb.com.br';
 

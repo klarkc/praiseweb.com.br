@@ -1,7 +1,7 @@
-import getPosts from './getPosts';
-import { title, description } from './meta';
+const getPosts = require('./getPosts');
+const { title, description } = require('./meta');
 
-export default {
+module.exports = {
   title,
   description,
   head: [
