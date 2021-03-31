@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen space-y-12 py-4 bg-yellow-300 text-gray-800 dark:bg-green-900 dark:text-gray-200">
+  <div class="min-h-screen space-y-12 py-4 bg-yellow-300 text-gray-800 dark:bg-green-900 dark:text-gray-300">
     <div class="container mx-auto px-4 flex">
       <div class="flex-1" />
       <DarkMode />
