@@ -3,13 +3,14 @@ const path = require('path');
 const matter = require('gray-matter');
 
 function formatDate(date) {
-  if (!date instanceof Date) {
-    date = new Date(date);
+  let newDate;
+  if (!(date instanceof Date)) {
+    newDate = new Date(date);
   }
-  date.setUTCHours(12);
+  newDate.setUTCHours(12);
   return {
-    time: +date,
-    string: date.toLocaleDateString('pt-BR', {
+    time: +newDate,
+    string: newDate.toLocaleDateString('pt-BR', {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
@@ -23,7 +24,7 @@ module.exports = function getPosts(asFeed = false) {
     .readdirSync(postDir)
     .map((file) => {
       const src = fs.readFileSync(path.join(postDir, file), 'utf-8');
-      const { data, content, excerpt } = matter(src, { excerpt: true });
+      const { data, excerpt } = matter(src, { excerpt: true });
       const post = {
         title: data.title,
         href: `/posts/${file.replace(/\.md$/, '.html')}`,
