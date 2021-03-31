@@ -4,6 +4,7 @@ const { title, description } = require('./meta');
 module.exports = {
   title,
   description,
+  lang: 'pt-BR',
   head: [
     [
       'link',
