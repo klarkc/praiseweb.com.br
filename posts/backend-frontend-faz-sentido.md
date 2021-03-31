@@ -2,9 +2,6 @@
 title: Especialização back-end e front-end ainda faz sentido?
 date: 2019-12-30
 published: true
-tags: ['Carreira', 'Desenvolvimento', 'Especialização']
-canonical_url: false
-series: false
 cover_image: /images/grandcanyon2016.jpg
 ---
 
