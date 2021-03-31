@@ -1,5 +1,5 @@
 <template>
-    <div class="h-5 w-5 cursor-pointer" @click="toggleDark">
+    <div class="h-6 w-6 cursor-pointer" @click="toggleDark" role="checkbox" :aria-checked="isDark" aria-label="Modo escuro">
         <SunIcon v-if="isDark" />
         <MoonIcon v-else />
     </div>
