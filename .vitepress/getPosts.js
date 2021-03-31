@@ -4,9 +4,9 @@ const matter = require('gray-matter');
 
 function formatDate(date) {
   let newDate = date;
-    if (!(newDate instanceof Date)) {
-      newDate = new Date(newDate);
-    }
+  if (!(newDate instanceof Date)) {
+    newDate = new Date(newDate);
+  }
   newDate.setUTCHours(12);
   return {
     time: +newDate,
