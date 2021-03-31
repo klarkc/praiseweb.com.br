@@ -1,0 +1,21 @@
+<template>
+  <dl>
+    <dt class="sr-only">Publicado em</dt>
+    <dd class="text-base leading-6 text-gray-500 dark:text-gray-400">
+      <time :datetime="getDateTime()">{{ date.string }}</time>
+    </dd>
+  </dl>
+</template>
+
+<script setup>
+import { defineProps } from 'vue'
+const props = defineProps({
+  /**
+   * { time, string }
+   */
+  date: Object
+})
+function getDateTime() {
+  return new Date(props.date.time).toISOString()
+}
+</script>
