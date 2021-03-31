@@ -4,7 +4,7 @@
       <div class="flex-1" />
       <DarkMode />
     </div>
-    <main class="container mx-auto px-4">
+    <main class="max-w-2xl mx-auto px-4">
       <Home v-if="isIndex" />
       <Article v-else />
     </main>
