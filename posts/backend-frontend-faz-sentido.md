@@ -6,7 +6,9 @@ tags: ['Carreira', 'Desenvolvimento', 'Especialização']
 canonical_url: false
 series: false
 cover_image: /images/grandcanyon2016.jpg
-description: "Sempre tivemos esse tipo de divisão no mundo do desenvolvimento, vamos pensar se isso ainda faz sentido nos dias de hoje?"
+---
+
+Sempre tivemos esse tipo de divisão no mundo do desenvolvimento, vamos pensar se isso ainda faz sentido nos dias de hoje?
 
 ---
 
