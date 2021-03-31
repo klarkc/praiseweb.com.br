@@ -3,6 +3,7 @@ title: Existe uma maneira certa de se fazer software?
 date: 2019-09-04
 published: true
 cover_image: /images/dont-do-it.jpg
+cover_alt: texto em inglês don't do it
 ---
 
 Spoiler: Sim, e é não fazendo software!

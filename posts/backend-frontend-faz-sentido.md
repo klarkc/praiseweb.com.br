@@ -3,6 +3,7 @@ title: Especialização back-end e front-end ainda faz sentido?
 date: 2019-12-30
 published: true
 cover_image: /images/grandcanyon2016.jpg
+cover_alt: foto do grand caynon
 ---
 
 Sempre tivemos esse tipo de divisão no mundo do desenvolvimento, vamos pensar se isso ainda faz sentido nos dias de hoje?
