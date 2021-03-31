@@ -10,7 +10,8 @@
         <a href="https://github.com/klarkc" target="_blank">GitHub</a>
       </div>
     </div>
-    <article class="bg-white shadow-xl flex flex-col relative transition-shadow dark:bg-green-800 hover:shadow-2xl" v-for="{ title, href, date, readTime, excerpt } of $site.customData.posts" :key="href">
+    <article class="bg-white shadow flex flex-col relative transition-shadow dark:bg-green-800 hover:shadow-2xl" v-for="{ title, href, date, readTime, coverImage, coverAlt, excerpt } of $site.customData.posts" :key="href">
+      <img v-if="coverImage" class="object-cover h-64 w-full" :src="coverImage" :alt="coverAlt">
       <div class="p-8 space-y-4">
         <h2 class="text-3xl leading-8 font-medium">
           {{ title }}
