@@ -10,13 +10,13 @@
         <a href="https://github.com/klarkc" target="_blank">GitHub</a>
       </div>
     </div>
-    <article class="bg-white shadow-xl flex flex-col relative transition-shadow dark:bg-green-800 hover:shadow-2xl" v-for="{ title, href, date, excerpt } of $site.customData.posts" :key="href">
+    <article class="bg-white shadow-xl flex flex-col relative transition-shadow dark:bg-green-800 hover:shadow-2xl" v-for="{ title, href, date, readTime, excerpt } of $site.customData.posts" :key="href">
       <div class="p-8 space-y-4">
         <h2 class="text-3xl leading-8 font-medium">
           {{ title }}
         </h2>
         <div v-if="excerpt" class="prose text-lg text-gray-800 dark:text-gray-300" v-html="excerpt"></div>
-        <Date :date="date" />
+        <ArticleMeta :date="date" :readTime="readTime" />
       </div>
       <a class="block absolute inset-0 opacity-0" aria-label="ler post" :href="href">Ler post</a>
     </article>
@@ -24,6 +24,6 @@
 </template>
 
 <script setup>
-import Date from './Date.vue';
+import ArticleMeta from './ArticleMeta.vue';
 </script>
 
