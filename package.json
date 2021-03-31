@@ -46,7 +46,8 @@
                         "./.vitepress/**/*"
                     ]
                 }
-            ]
+            ],
+            "no-unused-vars": "off"
         }
     },
     "dependencies": {
