@@ -40,6 +40,8 @@ module.exports = function getPosts(asFeed = false) {
         date: formatDate(data.date),
         excerpt,
         readTime: getReadTime(content),
+        coverImage: data.cover_image,
+        coverAlt: data.cover_alt,
       };
       if (asFeed) {
         // only attach these when building the RSS feed to avoid bloating the
