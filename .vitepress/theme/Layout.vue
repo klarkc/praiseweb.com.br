@@ -1,15 +1,13 @@
 <template>
-  <div class="h-screen bg-yellow-300 text-gray-800 dark:bg-green-900 dark:text-gray-200">
-    <div class="container mx-auto p-4">
-      <div class="flex">
-        <div class="flex-1" />
-        <DarkMode />
-      </div>
-      <main>
-        <Home v-if="isIndex" />
-        <Article v-else />
-      </main>
+  <div class="min-h-screen space-y-12 py-4 bg-yellow-300 text-gray-800 dark:bg-green-900 dark:text-gray-200">
+    <div class="container mx-auto px-4 flex">
+      <div class="flex-1" />
+      <DarkMode />
     </div>
+    <main class="container mx-auto px-4">
+      <Home v-if="isIndex" />
+      <Article v-else />
+    </main>
   </div>
 </template>
 
