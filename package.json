@@ -50,5 +50,9 @@
                 }
             ]
         }
+    },
+    "dependencies": {
+        "@heroicons/vue": "^1.0.0",
+        "@vueuse/core": "^4.6.3"
     }
 }
