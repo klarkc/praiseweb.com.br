@@ -9,7 +9,7 @@
         <Content class="prose p-8 text-lg text-gray-800 dark:text-gray-300" />
       </ArticleCard>
       <footer>
-        Footer
+        <Author />
       </footer>
     </article>
   </main>
@@ -21,6 +21,7 @@ import { computed } from 'vue';
 import ArticleTitle from './ArticleTitle.vue';
 import ArticleMeta from './ArticleMeta.vue';
 import ArticleCard from './ArticleCard.vue';
+import Author from './Author.vue';
 
 function findCurrentIndex() {
   return posts.findIndex(p => p.href === route.path)
