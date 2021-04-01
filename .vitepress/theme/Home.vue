@@ -5,7 +5,7 @@
       <ArticleCard :cover-image="coverImage" :cover-alt="coverAlt" class="hover:shadow-2xl">
         <div class="p-8 space-y-4">
           <ArticleTitle>{{ title }}</ArticleTitle>
-          <div v-if="excerpt" class="prose text-lg text-gray-800 dark:text-gray-300" v-html="excerpt"></div>
+          <div v-if="excerpt" class="prose max-w-none dark:prose-light" v-html="excerpt"></div>
           <ArticleMeta :date="date" :readTime="readTime" />
         </div>
         <a class="block absolute inset-0 opacity-0" aria-label="ler post" :href="href">Ler post</a>

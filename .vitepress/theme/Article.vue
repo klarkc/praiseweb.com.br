@@ -6,7 +6,7 @@
         <ArticleMeta :date="postCustom.date" :readTime="postCustom.readTime" />
       </header>
       <ArticleCard :cover-image="postCustom.coverImage" :cover-alt="postCustom.coverAlt">
-        <Content class="prose p-8 text-lg text-gray-800 dark:text-gray-300" />
+        <Content class="prose max-w-none p-8 dark:prose-light" />
       </ArticleCard>
     </article>
   </main>
