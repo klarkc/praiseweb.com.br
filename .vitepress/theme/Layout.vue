@@ -8,10 +8,8 @@
       </div>
       <DarkMode />
     </div>
-    <main class="max-w-2xl mx-auto px-4">
-      <Home v-if="isIndex" />
-      <Article v-else />
-    </main>
+    <Home v-if="isIndex" />
+    <Article v-else />
   </div>
 </template>
 
