@@ -8,9 +8,6 @@
 <script setup>
 import { defineProps } from 'vue'
 const props = defineProps({
-  /**
-   * { time, string }
-   */
   date: Object,
   readTime: Number,
 })
