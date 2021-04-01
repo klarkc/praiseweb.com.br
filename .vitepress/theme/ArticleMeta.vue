@@ -1,5 +1,5 @@
 <template>
-    <div class="text-base leading-6 text-gray-500 dark:text-gray-400">
+    <div class="text-base text-gray-600 dark:text-gray-400">
       Publicado em <time :datetime="getDateTime()">{{ date.string }}</time>.
       <b>{{readTime}} min leitura.</b>
     </div>

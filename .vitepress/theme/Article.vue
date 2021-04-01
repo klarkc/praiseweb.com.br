@@ -1,18 +1,19 @@
 <template>
   <main class="container mx-auto px-4">
     <article class="space-y-8">
-      <header class="text-center">
+      <header class="text-center space-y-4">
         <ArticleTitle class="text-4xl">{{ data.title }}</ArticleTitle>
         <ArticleMeta :date="postCustom.date" :readTime="postCustom.readTime" />
       </header>
       <ArticleCard :cover-image="postCustom.coverImage" :cover-alt="postCustom.coverAlt">
         <Content class="prose p-8 text-lg text-gray-800 dark:text-gray-300" />
       </ArticleCard>
-      <footer>
-        <Author />
-      </footer>
     </article>
   </main>
+  <footer class="space-y-8">
+    <Author />
+    <Copyright />
+  </footer>
 </template>
 
 <script setup>
@@ -22,6 +23,7 @@ import ArticleTitle from './ArticleTitle.vue';
 import ArticleMeta from './ArticleMeta.vue';
 import ArticleCard from './ArticleCard.vue';
 import Author from './Author.vue';
+import Copyright from './Copyright.vue';
 
 function findCurrentIndex() {
   return posts.findIndex(p => p.href === route.path)

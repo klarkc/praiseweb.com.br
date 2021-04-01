@@ -1,6 +1,6 @@
 <template>
+  <Author />
   <main class="max-w-2xl mx-auto px-4 space-y-8">
-    <Author />
     <template v-for="{ title, href, date, readTime, coverImage, coverAlt, excerpt } of $site.customData.posts" :key="href">
       <ArticleCard :cover-image="coverImage" :cover-alt="coverAlt" class="hover:shadow-2xl">
         <div class="p-8 space-y-4">
@@ -12,6 +12,7 @@
       </ArticleCard>
     </template>
   </main>
+  <Copyright />
 </template>
 
 <script setup>
@@ -19,5 +20,6 @@ import Author from './Author.vue';
 import ArticleMeta from './ArticleMeta.vue';
 import ArticleTitle from './ArticleTitle.vue';
 import ArticleCard from './ArticleCard.vue';
+import Copyright from './Copyright.vue';
 </script>
 
