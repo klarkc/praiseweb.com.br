@@ -42,7 +42,7 @@
                 {
                     "devDependencies": [
                         "./vite.config.js",
-                        "./windicss.config.js",
+                        "./windi.config.js",
                         "./.vitepress/**/*"
                     ]
                 }
