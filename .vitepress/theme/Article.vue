@@ -5,9 +5,9 @@
         <ArticleTitle class="text-4xl">{{ data.title }}</ArticleTitle>
         <ArticleMeta :date="postCustom.date" :readTime="postCustom.readTime" />
       </header>
-      <div>
+      <ArticleCard :cover-image="postCustom.coverImage" :cover-alt="postCustom.coverAlt">
         <Content class="prose" />
-      </div>
+      </ArticleCard>
       <footer>
         Footer
       </footer>
@@ -20,6 +20,7 @@ import { useFrontmatter, useSiteData, useRoute } from 'vitepress';
 import { computed } from 'vue';
 import ArticleTitle from './ArticleTitle.vue';
 import ArticleMeta from './ArticleMeta.vue';
+import ArticleCard from './ArticleCard.vue';
 
 function findCurrentIndex() {
   return posts.findIndex(p => p.href === route.path)
