@@ -22,7 +22,7 @@ getPosts(true).forEach((post) => {
   const file = path.resolve(__dirname, `dist${post.href}`);
   const rendered = fs.readFileSync(file, 'utf-8');
   const content = rendered.match(
-    /<div class="prose[^<>]+>([\s\S]*)<\/div><\/div><footer/,
+    /<div class="prose[^<>]+>([\s\S]*)<\/div><!--]--><\/article><\/article><\/main><footer/,
   );
 
   feed.addItem({
