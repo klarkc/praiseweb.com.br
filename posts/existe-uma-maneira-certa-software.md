@@ -2,11 +2,11 @@
 title: Existe uma maneira certa de se fazer software?
 date: 2019-09-04
 published: true
-tags: ['Produto', 'MVP', 'Agile']
-canonical_url: false
-series: false
-cover_image: ./images/dont-do-it.jpg
-description: "Spoiler: Sim, e é não fazendo software!"
+cover_image: /images/dont-do-it.jpg
+cover_alt: texto em inglês don't do it
+---
+
+Spoiler: Sim, e é não fazendo software!
 
 ---
 
@@ -44,7 +44,7 @@ A única maneira viável de se criar software é partir de um marco 0, evoluir, 
 
 #### Conclusão
 
-![Cartela de Bingo](images/bingo.jpg)
+![Cartela de Bingo](/images/bingo.jpg)
 
 Uma vez que assumimos que todo software deve ser EVOLUÍDO e NÃO FINALIZADO, descobrimos que desenvolver software para validar idéias é a **pior alternativa** de várias outras que você pode ter.
 
