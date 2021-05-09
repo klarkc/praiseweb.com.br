@@ -40,7 +40,6 @@ getPosts(true).forEach((post) => {
       },
     ],
     date: post.data.date,
-    image: post.data.cover_image,
   });
 });
 
