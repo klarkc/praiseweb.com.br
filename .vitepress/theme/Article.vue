@@ -1,5 +1,5 @@
 <template>
-  <main class="max-w-3xl mx-auto px-4 space-y-8">
+  <main class="max-w-3xl mx-auto px-4 space-y-12">
     <article class="space-y-8">
       <header class="text-center space-y-4">
         <ArticleTitle class="text-4xl">{{ data.title }}</ArticleTitle>
