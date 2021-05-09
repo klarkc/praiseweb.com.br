@@ -19,14 +19,17 @@ module.exports = defineConfig({
           h2: {
             fontSize: '1.25rem',
             lineHeight: '1.75rem',
+            position: 'relative',
           },
           h3: {
             fontSize: '1.125rem',
             lineHeight: '1.75rem',
+            position: 'relative',
           },
           h4: {
             fontSize: '1rem',
             lineHeight: '1.5rem',
+            position: 'relative',
           },
           img: {
             marginLeft: 'auto',
