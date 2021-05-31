@@ -31,6 +31,12 @@ module.exports = defineConfig({
             lineHeight: '1.5rem',
             position: 'relative',
           },
+          h5: {
+            position: 'relative',
+          },
+          h6: {
+            position: 'relative',
+          },
           img: {
             marginLeft: 'auto',
             marginRight: 'auto',
